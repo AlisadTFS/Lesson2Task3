@@ -10,6 +10,17 @@ namespace Task3
     {
         static void Main(string[] args)
         {
+            Console.Write("Введите целое число: ");
+            int numb = Convert.ToInt32(Console.ReadLine());
+            if (numb % 2 == 0)
+            {
+                Console.WriteLine($"Число {numb} является четным");
+            }
+            else
+            {
+                Console.WriteLine($"Число {numb} является нечетным");
+            }
+            
         }
     }
 }
